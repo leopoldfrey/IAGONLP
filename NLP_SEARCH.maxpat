@@ -39,6 +39,102 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 319.5, 379.0, 97.0, 20.0 ],
+					"text" : "< named entities"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 223.5, 459.0, 180.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "< part of speech nominal groups"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 262.5, 265.0, 123.0, 20.0 ],
+					"presentation_linecount" : 6,
+					"text" : "part of speech details"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 561.5, 84.5, 204.0, 20.0 ],
+					"presentation_linecount" : 9,
+					"text" : "see python console for those options"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"items" : [ "tokenize", ",", "constituency_parsing", ",", "dependency_parsing", ",", "coreference" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 583.5, 106.5, 148.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 583.5, 19.0, 39.0, 20.0 ],
+					"text" : "mode"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"items" : [ "part_of_speech", ",", "named_entities", ",", "all", ",", "(constituency_parsing)", ",", "(dependency_parsing)", ",", "(tokenize)", ",", "(coreference)" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 583.5, 44.0, 148.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 648.0, 144.0, 92.0, 22.0 ],
+					"text" : "prepend /option"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,8 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 742.0, 326.0, 87.0, 22.0 ],
-					"text" : "et"
+					"patching_rect" : [ 742.0, 326.0, 87.0, 22.0 ]
 				}
 
 			}
@@ -93,8 +188,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 326.0, 87.0, 22.0 ],
-					"text" : "envers"
+					"patching_rect" : [ 648.0, 326.0, 87.0, 22.0 ]
 				}
 
 			}
@@ -106,8 +200,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 554.0, 326.0, 87.0, 22.0 ],
-					"text" : "ses"
+					"patching_rect" : [ 554.0, 326.0, 87.0, 22.0 ]
 				}
 
 			}
@@ -119,8 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 326.0, 87.0, 22.0 ],
-					"text" : "sanctionne"
+					"patching_rect" : [ 460.0, 326.0, 87.0, 22.0 ]
 				}
 
 			}
@@ -132,8 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.0, 326.0, 87.0, 22.0 ],
-					"text" : "diffamatoires"
+					"patching_rect" : [ 366.0, 326.0, 87.0, 22.0 ]
 				}
 
 			}
@@ -145,8 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 272.0, 326.0, 87.0, 22.0 ],
-					"text" : "Bruxelles"
+					"patching_rect" : [ 272.0, 326.0, 87.0, 22.0 ]
 				}
 
 			}
@@ -154,13 +244,11 @@
 				"box" : 				{
 					"dontreplace" : 1,
 					"id" : "obj-9",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 326.0, 87.0, 35.0 ],
-					"text" : "conspirationnistes"
+					"patching_rect" : [ 178.0, 326.0, 87.0, 22.0 ]
 				}
 
 			}
@@ -345,6 +433,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-23", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-26", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"source" : [ "obj-3", 1 ]
 				}
@@ -424,6 +526,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
