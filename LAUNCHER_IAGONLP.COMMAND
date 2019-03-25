@@ -1,6 +1,7 @@
 #!/bin/sh
-echo Starting IagoNLP
-export PYTHONPATH=$(dirname $0)/libs:$(dirname $0)/src/
+echo Starting IagoNLP2
+export CORENLP_HOME=$(dirname $0)/src/stanford-corenlp-full-2018-10-05
 cd $(dirname $0)/src
-python -W ignore ./StanfordNLP.py
+pwd
+python3.7 ./StanfordNLP.py
 echo Done

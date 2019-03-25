@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 146.0, 152.0, 1062.0, 496.0 ],
+		"rect" : [ 201.0, 78.0, 986.0, 499.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,192 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 4,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-46",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 129.0, 315.0, 22.0 ],
+									"text" : "Me encanta la pasta pero no recuerdo malos sueños feos"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-43",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 100.0, 276.0, 22.0 ],
+									"text" : "I love pasta but I don't remember ugly bad dreams"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-47",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 44.0, 211.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"source" : [ "obj-43", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 246.0, 106.5, 108.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p other_languages"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"dontreplace" : 1,
+					"id" : "obj-38",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 878.484702093398028, 326.0, 61.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"dontreplace" : 1,
+					"id" : "obj-37",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 811.903918411165023, 326.0, 61.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"dontreplace" : 1,
+					"id" : "obj-36",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 745.323134728932018, 326.0, 61.0, 22.0 ],
+					"text" : ","
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"dontreplace" : 1,
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 678.742351046699014, 326.0, 61.0, 22.0 ],
+					"text" : "est"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 269.0, 228.0, 310.0, 22.0 ],
+					"text" : "Paris est la capitale de la France et moi Ronald j'y habite"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 253.0, 187.5, 530.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Stan le petit chat bleu mange goulument le joli chien à Paris. J'aime les légumes bien crus, et toi ?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -55,7 +241,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 223.5, 459.0, 180.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "< part of speech nominal groups"
 				}
 
@@ -67,7 +252,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 262.5, 265.0, 123.0, 20.0 ],
-					"presentation_linecount" : 6,
 					"text" : "part of speech details"
 				}
 
@@ -79,7 +263,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 561.5, 84.5, 204.0, 20.0 ],
-					"presentation_linecount" : 9,
 					"text" : "see python console for those options"
 				}
 
@@ -87,7 +270,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"items" : [ "tokenize", ",", "constituency_parsing", ",", "dependency_parsing", ",", "coreference" ],
+					"items" : [ "tokenize", ",", "constituency_parsing", ",", "dependency_parsing", ",", "coreference", ",", "sentiment" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -111,7 +294,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"items" : [ "part_of_speech", ",", "named_entities", ",", "all", ",", "(constituency_parsing)", ",", "(dependency_parsing)", ",", "(tokenize)", ",", "(coreference)" ],
+					"items" : [ "part_of_speech", ",", "named_entities", ",", "all", ",", "(constituency_parsing)", ",", "(dependency_parsing)", ",", "(tokenize)", ",", "(coreference)", ",", "(sentiment)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -153,7 +336,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 742.0, 326.0, 87.0, 22.0 ]
+					"patching_rect" : [ 612.161567364466009, 326.0, 61.0, 22.0 ],
+					"text" : "et"
 				}
 
 			}
@@ -163,20 +347,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 904.0, 326.0, 146.0, 22.0 ],
+					"patching_rect" : [ 793.484702093398028, 367.0, 146.0, 22.0 ],
 					"text" : "print UNKNOWN_TOKEN"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 212.0, 71.0, 22.0 ],
-					"text" : "fromsymbol"
 				}
 
 			}
@@ -188,7 +360,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 326.0, 87.0, 22.0 ]
+					"patching_rect" : [ 545.580783682233005, 326.0, 61.0, 22.0 ],
+					"text" : "de"
 				}
 
 			}
@@ -200,7 +373,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 554.0, 326.0, 87.0, 22.0 ]
+					"patching_rect" : [ 479.0, 326.0, 61.0, 22.0 ],
+					"text" : "la"
 				}
 
 			}
@@ -212,7 +386,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 326.0, 87.0, 22.0 ]
+					"patching_rect" : [ 385.0, 326.0, 87.0, 22.0 ],
+					"text" : "habite"
 				}
 
 			}
@@ -224,7 +399,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.0, 326.0, 87.0, 22.0 ]
+					"patching_rect" : [ 291.0, 326.0, 87.0, 22.0 ],
+					"text" : "diffamatoires"
 				}
 
 			}
@@ -236,7 +412,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 272.0, 326.0, 87.0, 22.0 ]
+					"patching_rect" : [ 197.0, 326.0, 87.0, 22.0 ],
+					"text" : "Ronald"
 				}
 
 			}
@@ -248,7 +425,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 326.0, 87.0, 22.0 ]
+					"patching_rect" : [ 103.0, 326.0, 87.0, 22.0 ],
+					"text" : "capitale"
 				}
 
 			}
@@ -280,10 +458,10 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 9,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 246.0, 292.0, 771.0, 22.0 ],
-					"text" : "OSC-route /NOUN /PROPN /ADJ /VERB /DET /ADP /CONJ /AUX"
+					"numoutlets" : 12,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 171.0, 292.0, 793.0, 22.0 ],
+					"text" : "OSC-route /NOUN /PROPN /ADJ /VERB /DET /ADP /CONJ /AUX /PUNCT /PRON /ADV"
 				}
 
 			}
@@ -318,18 +496,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 96.0, 60.0, 327.0, 22.0 ],
 					"text" : "Stan le petit chat bleu mange goulument le joli chien à Paris"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 124.5, 57.0, 22.0 ],
-					"text" : "tosymbol"
 				}
 
 			}
@@ -405,7 +571,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -419,20 +585,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-23", 1 ]
 				}
@@ -440,8 +592,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-26", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -483,7 +649,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-3", 7 ]
+					"midpoints" : [ 954.5, 357.5, 802.984702093398028, 357.5 ],
+					"source" : [ "obj-3", 11 ]
 				}
 
 			}
@@ -496,6 +663,34 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 1 ],
+					"source" : [ "obj-3", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 1 ],
+					"source" : [ "obj-3", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-3", 9 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-3", 10 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -503,8 +698,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -531,7 +733,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
