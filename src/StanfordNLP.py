@@ -111,7 +111,6 @@ class StanfordNLP:
             self.osc_client.send("/stanfordnlp/reset")
         elif key == '/option':
             self.option = rest
-            print("-mode "+rest)
         elif key == '/search':
             self.search(rest)
         else:
