@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 185.333333333333371, 210.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -193,8 +204,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 678.742351046699014, 326.0, 61.0, 22.0 ],
-					"text" : "est"
+					"patching_rect" : [ 678.742351046699014, 326.0, 61.0, 22.0 ]
 				}
 
 			}
@@ -218,7 +228,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 253.0, 187.5, 530.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Stan le petit chat bleu mange goulument le joli chien à Paris. J'aime les légumes bien crus, et toi ?"
 				}
 
@@ -259,24 +268,25 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 561.5, 84.5, 204.0, 20.0 ],
-					"text" : "see python console for those options"
+					"patching_rect" : [ 561.5, 84.5, 383.0, 33.0 ],
+					"text" : "see python console for those options (ne fonctionne pas forcément en français)"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"items" : [ "tokenize", ",", "constituency_parsing", ",", "dependency_parsing", ",", "coreference", ",", "sentiment" ],
+					"items" : [ "tokenize", ",", "constituency_parsing", ",", "dependency_parsing", ",", "coreference", ",", "sentiment", ",", "lemmatize" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 583.5, 106.5, 148.0, 22.0 ]
+					"patching_rect" : [ 583.5, 121.5, 148.0, 22.0 ]
 				}
 
 			}
@@ -294,7 +304,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"items" : [ "part_of_speech", ",", "named_entities", ",", "all", ",", "(constituency_parsing)", ",", "(dependency_parsing)", ",", "(tokenize)", ",", "(coreference)", ",", "(sentiment)" ],
+					"items" : [ "part_of_speech", ",", "named_entities", ",", "all", ",", "(constituency_parsing)", ",", "(dependency_parsing)", ",", "(tokenize)", ",", "(coreference)", ",", "(sentiment)", ",", "(lemmatize)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -336,8 +346,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 612.161567364466009, 326.0, 61.0, 22.0 ],
-					"text" : "et"
+					"patching_rect" : [ 612.161567364466009, 326.0, 61.0, 22.0 ]
 				}
 
 			}
@@ -361,7 +370,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 545.580783682233005, 326.0, 61.0, 22.0 ],
-					"text" : "de"
+					"text" : "à"
 				}
 
 			}
@@ -374,7 +383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 479.0, 326.0, 61.0, 22.0 ],
-					"text" : "la"
+					"text" : "le"
 				}
 
 			}
@@ -387,7 +396,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 385.0, 326.0, 87.0, 22.0 ],
-					"text" : "habite"
+					"text" : "sera"
 				}
 
 			}
@@ -400,7 +409,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 291.0, 326.0, 87.0, 22.0 ],
-					"text" : "diffamatoires"
+					"text" : "prêt"
 				}
 
 			}
@@ -413,7 +422,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 197.0, 326.0, 87.0, 22.0 ],
-					"text" : "Ronald"
+					"text" : "!!!"
 				}
 
 			}
@@ -426,7 +435,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 103.0, 326.0, 87.0, 22.0 ],
-					"text" : "capitale"
+					"text" : "Top"
 				}
 
 			}
@@ -549,6 +558,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-10", 3 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-10", 0 ]

@@ -82,6 +82,13 @@ class DownThread(Thread):
                         t = ann.sentence[xs].token[xt]
                         self.osc_client.send('/token/'+t.pos, t.word)
                         
+        elif(self.option == 'lemmatize'):
+            print('----> LEMMATIZE :')
+            for xs in range(len(ann.sentence)):
+                    for xt in range(len(ann.sentence[xs].token)):
+                        t = ann.sentence[xs].token[xt]
+                        print(t.word," : ", t.lemma)
+                        
         elif(self.option == 'coreference'):
             print('----> COREFERENCE :')
             print(ann.corefChain)
